@@ -16,7 +16,7 @@ let currentNekoImage = null;
 async function getNekoImage() {
   try {
 
-    const response = await fetch('https://api.waifu.pics/sfw/neko');
+    const response = await fetch('https://www.aaha.org/wp-content/uploads/2024/09/kitten-lying-in-blanket.jpg');
     if (response.ok) {
       const data = await response.json();
       return data.url;
@@ -27,7 +27,7 @@ async function getNekoImage() {
   
   try {
 
-    const response = await fetch('https://nekos.life/api/v2/img/neko');
+    const response = await fetch('https://image.petmd.com/files/inline-images/black-cat-gold-eyes.jpeg?VersionId=az8eSZaz3xQUDlE7Z6.0.le6vQYDoOKy');
     if (response.ok) {
       const data = await response.json();
       return data.url;
